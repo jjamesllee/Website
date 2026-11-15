@@ -18,43 +18,19 @@
         "bullets": [
           [
             {
-              "text": "Designing and developing the prototype vehicle’s ",
-              "strong": false
-            },
-            {
-              "text": "rear shelf assembly",
-              "strong": true
-            },
-            {
-              "text": " to accommodate the motor, battery, and drivetrain mounting systems within the available vehicle space.",
+              "text": "Led the redesign of the prototype car’s battery and motor mounts after hard-to-remove mounts delayed servicing at competition. Completed the SOLIDWORKS CAD for both mounts and designed the bases that attach them to the chassis.",
               "strong": false
             }
           ],
           [
             {
-              "text": "Redesigning mounting concepts in ",
-              "strong": false
-            },
-            {
-              "text": "SOLIDWORKS",
-              "strong": true
-            },
-            {
-              "text": ", working through component integration, structural support, and sizing constraints as part of the rear assembly’s mechanical development.",
+              "text": "Now prototyping the drivetrain’s chain tensioner mount and checking how it fits into the rear shelf assembly.",
               "strong": false
             }
           ],
           [
             {
-              "text": "Developing and iterating CAD models, then using ",
-              "strong": false
-            },
-            {
-              "text": "rapid prototypes",
-              "strong": true
-            },
-            {
-              "text": " to evaluate concepts, examine mechanical functionality, and inform the next design revision.",
+              "text": "Planning to learn ANSYS and use finite element analysis to assess the mount designs under motor torque and other loads.",
               "strong": false
             }
           ],
@@ -100,7 +76,7 @@
     "url": "https://www.blueskysolar.org/",
     "roles": [
       {
-        "title": "Strategy Team Member",
+        "title": "Optimization/Strategy Software Developer",
         "date": {
           "start": "2026-09",
           "end": null
@@ -122,15 +98,25 @@
           ],
           [
             {
-              "text": "Reviewing and analyzing the existing ",
+              "text": "Reviewing Sapphire’s C++ Race Plan library and tracing how the simulator receives the route and race plan and how callers use its results. The review covers Raceplan.hpp, Raceplan.tpp, and Raceplan.cpp.",
               "strong": false
-            },
+            }
+          ],
+          [
             {
-              "text": "race-planning library",
-              "strong": true
-            },
+              "text": "Defining system requirements, updating C4 component and code diagrams, and documenting design choices in Architecture Decision Records.",
+              "strong": false
+            }
+          ],
+          [
             {
-              "text": " to understand its functionality, evaluate how the software supports strategy decisions, and identify potential improvements for future development.",
+              "text": "Proposing configurable handling for speed-limit violations, motor power limits, and battery depletion, plus a way for callers to request only the metrics they need.",
+              "strong": false
+            }
+          ],
+          [
+            {
+              "text": "The proposed changes would let the team inspect what happens after a violation in manual race visualization and use strict constraints to validate candidate plans from the optimizer.",
               "strong": false
             }
           ],
@@ -180,18 +166,18 @@
   {
     "id": "swimming",
     "name": "Private Swimming Instructor",
-    "location": "Richmond Hill, Ontario",
+    "location": "Markham, Ontario",
     "period": {
-      "start": "2024-01",
-      "end": "2026-09"
+      "start": "2023-08",
+      "end": "2026-08"
     },
     "url": "",
     "roles": [
       {
         "title": "Private Swimming Instructor · Self-employed",
         "date": {
-          "start": "2024-01",
-          "end": "2026-09"
+          "start": "2023-08",
+          "end": "2026-08"
         },
         "bullets": [
           [
@@ -214,7 +200,7 @@
               "strong": false
             },
             {
-              "text": "100+ personalized private lessons",
+              "text": "125+ personalized private lessons",
               "strong": true
             },
             {

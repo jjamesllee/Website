@@ -1,10 +1,10 @@
 ---
 recent_order: 2
-gallery_title: "Solar Race Strategy Simulator"
+gallery_title: "World Solar Challenge Race Strategy Simulator"
 gallery_summary: "A C++ simulator balancing speed, weather, and energy across a solar race."
 card_summary: "An individual C++ recruitment project simulating energy use across a roughly 3,000 km solar race. I combined vehicle modelling, adaptive speed selection, and faster weather lookups to compare race strategies and track battery constraints."
 permalink: /projects/blueskysolar-recruitmentproject/
-title: "Solar Race Strategy & Energy Simulator"
+title: "World Solar Challenge Race Strategy Simulator"
 summary: "An individual C++ recruitment project combining vehicle energy modelling, adaptive speed selection, and faster weather lookups over a roughly 3,000 km solar race."
 description: "Cheng-Chi Lee's solar race simulator: energy modelling, constant-speed sweeps, adaptive strategies, and documented simulation outputs."
 course: Blue Sky Solar Racing · Recruitment Project
@@ -72,6 +72,8 @@ The completed program offers three simulation modes:
 - A route-point strategy that can reconsider speed between every pair of adjacent CSV coordinates
 
 ### Establishing a baseline
+
+While testing the constant-speed mode, I observed about 3 seconds per speed iteration before caching weather lookups and about 4 seconds for the entire speed sweep after caching. The two timings cover different amounts of work, so they do not establish a measured speedup.
 
 The constant-speed sweep asks a useful first question: which fixed speeds can complete the simulated race within both the time and battery constraints? In the captured portion of the output, **59 to 64 km/h are viable**, while the neighbouring displayed speeds are not. This is a result for the supplied model and inputs, not a general operating range for a real solar car.
 

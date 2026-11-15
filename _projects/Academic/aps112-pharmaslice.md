@@ -20,7 +20,7 @@ role: Team Lead · Co-designer · Arduino Programming
 technologies:
   - Arduino Uno R3
   - Arduino programming
-  - DC gear motors
+  - Two 60 RPM DC gear motors
   - Encoder feedback
   - Pugh concept selection
 tags: [client-design, programming, embedded-systems, mechanical-design, prototyping, testing, teamwork]
@@ -123,6 +123,8 @@ The decision was a team comparison against requirements. The open construction h
 
 ### Co-designing PharmaSlice
 
+From January through April 2026, I contributed engineering drawings and helped assemble and test the prototype. We presented the project at the Myhal Centre.
+
 I was one of the designers of PharmaSlice, contributing to the mechanical concept alongside my teammates. I participated in developing design solutions and comparing the candidate concepts against the client's requirements. This work helped connect the strip-advancement and cutting mechanisms to the pharmacy's needs for selectable batch sizes, package integrity, and reduced manual interaction.
 
 ### Client research and design documentation
@@ -186,6 +188,8 @@ bool checkJam() {
 <section id="validation" markdown="1">
 
 ## Testing, reported results, and their limits
+
+Our design target was at least 1,750 individual strips per hour. A strip is one separated piece containing the selected number of pouches. At two pouches per strip, the target corresponds to 3,500 pouches per hour. The figures below are separate estimates based on prototype cycle times.
 
 {% include project-page-sections/figure.html image="/projects/aps112-pharmaslice/images/aps112-project-timeline.png" alt="Testing timeline from assembly and Arduino development to strip preparation, calibration, and three runs per batch size" caption="Our planned sequence: assemble, program, prepare strips, calibrate, test each batch size, and revise if necessary." class="aps-wide" %}
 

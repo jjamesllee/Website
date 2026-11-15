@@ -19,7 +19,7 @@ timeline_canvas: true
       <div>
         <p class="experience-organization__period">{% include period.html period=organization.period %}</p>
         <h2>{{ organization.name }}</h2>
-        <p class="experience-organization__location" translate="no">{{ organization.location }}</p>
+        <p class="experience-organization__location">{{ organization.location }}</p>
         {% if organization.url != '' %}<a class="experience-organization__website" href="{{ organization.url }}" target="_blank" rel="noopener noreferrer" aria-label="Organization website"><span translate="no">{{ organization.url | remove: 'https://' | remove: 'http://' | split: '/' | first }}</span><span aria-hidden="true">↗</span></a>{% endif %}
       </div>
     </header>

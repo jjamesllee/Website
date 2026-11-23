@@ -5,7 +5,7 @@ content_wrapper: false
 permalink: "/projects/larpedin/"
 title: "LarpedIn: Smart Glasses to LinkedIn"
 gallery_title: "LarpedIn"
-gallery_summary: "Everyday moments, recast as LinkedIn thought leadership through smart glasses and AI."
+gallery_summary: "Everyday moments, documented through Ray-Bans and professionalized on LinkedIn."
 summary: "A hands-free hackathon prototype that turns moments captured on Meta glasses into satirical LinkedIn posts, combining video, audio, two AI stages, and publishing integration."
 card_summary: "Built at LarpHacks 2026 at U of T’s Bahen Centre. I worked on getting video and audio from Meta glasses into the AI pipeline and helped implement LinkedIn posting logic."
 description: "Cheng-Chi Lee’s LarpedIn hackathon project: Meta glasses capture, audio and video routing, AI integration, and LinkedIn publishing."
@@ -16,11 +16,11 @@ date: "2026-11-01"
 recent_order: 0
 order: 1
 role: "Wearable media integration · LinkedIn API integration"
-thumbnail: "/projects/larpedin/images/app-icon.png"
+thumbnail: "/projects/larpedin/images/larpedin-app-icon.png"
 github: "https://github.com/dinud2/LarpedIn"
 technologies: ["Swift", "SwiftUI", "Meta Wearables SDK", "AVFoundation", "FFmpeg", "OpenRouter", "LinkedIn API"]
 tags: ["programming", "wearable-computing", "multimodal-ai", "api-integration", "hackathon", "prototyping", "teamwork"]
-cover: {"image": "/projects/larpedin/images/app-icon.png", "alt": "LarpedIn app icon showing smart glasses, a camera, and an upward trend arrow", "caption": "The team’s app icon. LarpHacks · November 1, 2026 · Bahen Centre, Toronto."}
+cover: {"image": "/projects/larpedin/images/larpedin-app-icon.png", "alt": "LarpedIn app icon showing smart glasses, a camera, and an upward trend arrow", "caption": "The team’s app icon. LarpHacks · November 1, 2026 · Bahen Centre, Toronto."}
 ---
 
 <div class="larpedin-story">

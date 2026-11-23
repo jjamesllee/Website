@@ -1,4 +1,3 @@
-import { initializeRecentGallery } from "./features/recent-gallery.js";
 import { initializeAppearance } from "./features/appearance.js";
 import { initializeProjectFilters } from "./features/project-filters.js";
 import { initializeTimeline } from "./features/timeline.js";
@@ -21,5 +20,3 @@ initializeLightbox();
 initializeNavigation();
 initializeLocalization();
 initializePopovers();
-
-initializeRecentGallery();

@@ -21,6 +21,20 @@
   margin: auto;
 }
 
+.cad-gallery-page .lightbox {
+  box-sizing: border-box;
+  width: min(96vw, 140rem);
+  max-width: 96vw;
+  max-height: 96dvh;
+}
+
+.cad-gallery-page .lightbox img {
+  width: 100%;
+  height: auto;
+  max-height: calc(92dvh - 5rem);
+  object-fit: contain;
+}
+
 .lightbox button {
   font: inherit;
   font-weight: 600;

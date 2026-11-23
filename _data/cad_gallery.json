@@ -1,0 +1,93 @@
+[
+  {
+    "title": "MIE243 Final Project",
+    "images": [
+      {
+        "image": "/assets/images/cad-gallery/mie243-desktop-drivetrain-fl-suspension-assembly-isometric.png",
+        "alt": "Front-left suspension assembly"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-desktop-drivetrain-fl-suspension-assembly-isometric-exploded.png",
+        "alt": "Front-left suspension assembly, exploded view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-desktop-drivetrain-steering-hub-to-u-joint-isometric-exploded.png",
+        "alt": "Steering hub to universal joint, exploded view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-desktop-drivetrain-u-joint-isometric-exploded.png",
+        "alt": "Universal joint, exploded view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-desktop-drivetrain-fl-suspension-assembly-drawing-sheet-1.png",
+        "alt": "Suspension assembly drawing, sheet 1"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-desktop-drivetrain-fl-suspension-assembly-drawing-sheet-5.png",
+        "alt": "Suspension component drawing, sheet 5"
+      }
+    ]
+  },
+  {
+    "title": "MIE243 Collinear Gearbox",
+    "images": [
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-assembly-isometric.png",
+        "alt": "Collinear gearbox assembly, isometric view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-assembly-isometric-transparent.png",
+        "alt": "Collinear gearbox assembly, transparent view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-assembly-side-view.png",
+        "alt": "Collinear gearbox assembly, side view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-base-front-view.png",
+        "alt": "Gearbox base, front view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-base-isometric.png",
+        "alt": "Gearbox base, isometric view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-helical-main-gear-isometric.png",
+        "alt": "Helical main gear, isometric view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-helical-main-gear-front-view-tooth-detail.png",
+        "alt": "Helical main gear, front tooth detail"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-helical-pinion-gear-isometric.png",
+        "alt": "Helical pinion gear, isometric view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-helical-pinion-gear-front-view-tooth-detail.png",
+        "alt": "Helical pinion gear, front tooth detail"
+      },
+      {
+        "image": "/assets/images/cad-gallery/mie243-collinear-gearbox-motor-casing-isometric.png",
+        "alt": "Gearbox motor casing, isometric view"
+      }
+    ]
+  },
+  {
+    "title": "UTSM Vehicle Mounts",
+    "images": [
+      {
+        "image": "/assets/images/cad-gallery/utsm-2026-27-motor-mount-base-isometric.png",
+        "alt": "Motor mount base, isometric view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/utsm-2026-27-motor-mount-base-top-view.png",
+        "alt": "Motor mount base, top view"
+      },
+      {
+        "image": "/assets/images/cad-gallery/utsm-2026-27-battery-box-mount-top-isometric.png",
+        "alt": "Battery box mount, isometric view"
+      }
+    ]
+  }
+]

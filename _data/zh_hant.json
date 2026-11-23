@@ -989,7 +989,7 @@
     "FFmpeg": "FFmpeg",
     "OpenRouter": "OpenRouter",
     "LinkedIn API": "LinkedIn API",
-    "Everyday moments, recast as LinkedIn thought leadership through smart glasses and AI.": "透過智慧眼鏡與 AI，將日常片段包裝成 LinkedIn 領導力心得。",
+    "Everyday moments, documented through Ray-Bans and professionalized on LinkedIn.": "透過 Ray-Ban 智慧眼鏡記錄日常片段，並在 LinkedIn 上賦予專業形象。",
     "Cheng-Chi Lee’s LarpedIn hackathon project: Meta glasses capture, audio and video routing, AI integration, and LinkedIn publishing.": "李承起的 LarpedIn 黑客松專題：Meta 眼鏡擷取、影音路由、AI 整合與 LinkedIn 發文。",
     "LarpedIn app icon showing smart glasses, a camera, and an upward trend arrow": "LarpedIn 應用程式圖示：智慧眼鏡、相機與向上趨勢箭頭",
     "The team’s app icon. LarpHacks · November 1, 2026 · Bahen Centre, Toronto.": "團隊的應用程式圖示。LarpHacks · 2026 年 11 月 1 日 · 多倫多 Bahen Centre。",
@@ -1103,5 +1103,48 @@
     "I designed the wishbone suspension from scratch to fit the desktop assembly and modelled a custom universal joint to go with it.": "我從零開始設計符合桌上型組裝空間的 A 臂式懸吊，並為其建立自製萬向接頭的模型。",
     "Differential in development": "差速器開發中",
     "I am developing the differential for the same assembly. The suspension and universal joint are complete at the CAD stage.": "我正在為同一套組件開發差速器。懸吊與萬向接頭已完成 CAD 建模。"
+  },
+  "cad_gallery": {
+    "CAD Gallery": "CAD 圖庫",
+    "Collection of my mechanical designs and CAD models": "我的機械設計與 CAD 模型作品集",
+    "MIE243 Final Project": "MIE243 期末專題",
+    "MIE243 Collinear Gearbox": "MIE243 同軸齒輪箱",
+    "UTSM Vehicle Mounts": "UTSM 車輛固定座",
+    "Motor mount base, isometric view": "馬達固定座底板，等角視圖",
+    "Motor mount base, top view": "馬達固定座底板，俯視圖",
+    "Battery box mount, isometric view": "電池盒固定座，等角視圖",
+    "Collinear gearbox assembly, isometric view": "同軸齒輪箱組件，等角視圖",
+    "Collinear gearbox assembly, transparent view": "同軸齒輪箱組件，透明視圖",
+    "Collinear gearbox assembly, side view": "同軸齒輪箱組件，側視圖",
+    "Gearbox base, front view": "齒輪箱底座，正視圖",
+    "Gearbox base, isometric view": "齒輪箱底座，等角視圖",
+    "Helical main gear, isometric view": "主斜齒輪，等角視圖",
+    "Helical main gear, front tooth detail": "主斜齒輪，正視齒形細節",
+    "Helical pinion gear, isometric view": "小斜齒輪，等角視圖",
+    "Helical pinion gear, front tooth detail": "小斜齒輪，正視齒形細節",
+    "Gearbox motor casing, isometric view": "齒輪箱馬達外殼，等角視圖"
+  },
+  "drivetrain_cad_gallery": {
+    "CAD gallery": "CAD 圖庫",
+    "Suspension assembly": "懸吊總成",
+    "Steering hub and universal joint": "轉向輪轂與萬向接頭",
+    "Front-left suspension assembly": "左前懸吊總成",
+    "Front-left suspension assembly, exploded view": "左前懸吊總成分解圖",
+    "Steering hub to universal joint, exploded view": "轉向輪轂至萬向接頭分解圖",
+    "Universal joint, exploded view": "萬向接頭分解圖",
+    "Suspension assembly drawing, sheet 1": "懸吊總成工程圖，第 1 張",
+    "Suspension component drawing, sheet 5": "懸吊零件工程圖，第 5 張"
+  },
+  "cswa_am": {
+    "Certified SOLIDWORKS Associate - Additive Manufacturing (CSWA-AM)": "SOLIDWORKS 助理工程師認證：積層製造（CSWA-AM）",
+    "Dassault Systèmes": "達梭系統",
+    "Issued November 20, 2026": "頒發日期：2026 年 11 月 20 日",
+    "Credential ID": "認證編號",
+    "Enlarge CSWA-AM certificate": "放大 CSWA-AM 證書",
+    "CSWA-AM certificate awarded to Cheng-Chi Lee": "頒發予李承起的 CSWA-AM 證書",
+    "III // Certifications": "III // 專業認證",
+    "3D Printing": "3D 列印",
+    "Design for Manufacturing": "製造導向設計",
+    "Rapid Prototyping": "快速原型製作"
   }
 }

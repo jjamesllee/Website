@@ -8,7 +8,7 @@ project_class: bearing-study
 content_wrapper: false
 skill_tags: true
 cover:
-  image: /projects/mie243-bearing-sketch/outer-race-sketch.png
+  image: /projects/mie243-bearing-sketch/mie243-outer-race-sketch.png
   alt: Hand-drawn outer bearing race with concentric diameters and a side view of its internal groove
   caption: "Outer race · MIE243 Dissection #1 · October 8, 2026."
   lightbox_caption: Outer race · original MIE243 hand sketch
@@ -38,7 +38,7 @@ category: academic
 year: 2026
 order: 3
 role: "Component observation and hand drafting"
-thumbnail: /projects/mie243-bearing-sketch/ball-retainer-sketch.png
+thumbnail: /projects/mie243-bearing-sketch/mie243-ball-retainer-sketch.png
 technologies:
   - Hand drafting
   - Orthographic views
@@ -49,22 +49,22 @@ tags:
   - dimensional-documentation
 sheets:
   - title: "Outer race"
-    image: /projects/mie243-bearing-sketch/outer-race-sketch.png
+    image: /projects/mie243-bearing-sketch/mie243-outer-race-sketch.png
     pdf: "/projects/mie243-bearing-sketch/1012180444 Bearing Sketch Page 1 of 4.pdf"
     caption: "Concentric diameters and the internal raceway profile. Groove radius R2.47 mm is marked as estimated."
     alt: "Hand sketch of the outer race, showing the circular face, hidden raceway lines, and side profile"
   - title: "Inner race"
-    image: /projects/mie243-bearing-sketch/inner-race-sketch.png
+    image: /projects/mie243-bearing-sketch/mie243-inner-race-sketch.png
     pdf: "/projects/mie243-bearing-sketch/1012180444 Bearing Sketch Page 2 of 4.pdf"
     caption: "A stepped inner ring, documented in aligned face and side views. Bore diameter: 25.35 mm."
     alt: "Hand sketch of the inner race with bore diameters, shoulders, and a curved raceway"
   - title: "Retainer"
-    image: /projects/mie243-bearing-sketch/ball-retainer-sketch.png
+    image: /projects/mie243-bearing-sketch/mie243-ball-retainer-sketch.png
     pdf: "/projects/mie243-bearing-sketch/1012180444 Bearing Sketch Page 3 of 4.pdf"
     caption: "The cage has 12 equally spaced pocket features; the side view shows their open profile."
     alt: "Hand sketch of a circular retainer with twelve equally spaced ball pockets"
   - title: "Bearing ball"
-    image: /projects/mie243-bearing-sketch/bearing-ball-sketch.png
+    image: /projects/mie243-bearing-sketch/mie243-bearing-ball-sketch.png
     pdf: "/projects/mie243-bearing-sketch/1012180444 Bearing Sketch Page 4 of 4.pdf"
     caption: "A spherical rolling element, recorded as \u00d84.90 mm. The sheet separately notes a quantity of four."
     alt: "Hand sketch of a bearing ball with centerlines and a diameter dimension"

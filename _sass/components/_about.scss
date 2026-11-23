@@ -154,6 +154,17 @@
 .education-entry .education-course-group__note { margin: 0 0 0.3rem; font-size: 0.7rem; line-height: 1.5; color: var(--text-secondary); }
 .education-course-code { font-size: 0.7rem; color: var(--text-secondary); }
 
+.certification-section { border-top: 1px solid var(--border); padding-top: 1.5rem; }
+.certification-section .editorial-section-heading { margin-bottom: 1rem; }
+.certification-card { display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 1.25rem; align-items: center; padding: 1rem; border: 1px solid var(--border); border-radius: 0.75rem; background: var(--surface); }
+.certification-card__image { width: 100%; border-radius: 0.35rem; overflow: hidden; }
+.editorial-page .certification-card__image img { display: block; width: 100%; height: auto; }
+.certification-card__body { min-width: 0; }
+.certification-card__body h3 { font-size: 1.05rem; line-height: 1.35; }
+.certification-card__body p { margin: 0.35rem 0; font-size: 0.8rem; color: var(--text-secondary); }
+.certification-card__credential { display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem; }
+@media (max-width: 42rem) { .certification-card { grid-template-columns: minmax(0, 1fr); gap: 0.85rem; } .certification-card__image { max-width: 12rem; } }
+
 .about-bio { grid-column: 2; grid-row: 1 / 3; min-width: 0; }
 .about-bio > p { margin: 0 0 1.25rem; font-size: 1rem; line-height: 1.75; }
 .about-bio > p:last-of-type { margin-bottom: 0; }

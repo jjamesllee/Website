@@ -18,6 +18,16 @@
   border-radius: 0.75rem;
 }
 
+.drivetrain-cad-gallery .flex-gallery img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.cad-gallery-page .flex-gallery img {
+  object-fit: contain;
+  background: var(--surface);
+}
+
 .gallery-open {
   border: 0;
   padding: 0;

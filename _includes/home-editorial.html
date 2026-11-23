@@ -37,16 +37,15 @@
 <section class="editorial-section" id="selected-work" aria-labelledby="work-heading">
   <div class="editorial-section-heading"><div><p class="page-label">I // Recent projects</p><h2 id="work-heading">Most recent works<span class="accent-period">.</span></h2></div><a class="editorial-link" href="{{ '/projects/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div>
   {% assign selected_work = site.projects | sort: 'recent_order' %}
-  <div class="selected-gallery" tabindex="0" role="region" aria-label="Most recent works">
+  <div class="selected-gallery" role="region" aria-label="Most recent works">
     {% for project in selected_work limit:3 %}
     <a class="gallery-work" href="{{ project.url | relative_url }}" aria-label="{{ project.title | escape }}">
-      <div class="gallery-work__image"><img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title | escape }}" loading="lazy" width="1000" height="800"><span class="gallery-work__open">{% include diagonal-arrow.html %}</span></div>
-      <div class="gallery-work__caption"><span class="page-label" aria-hidden="true">{% case forloop.index %}{% when 1 %}I{% when 2 %}II{% when 3 %}III{% endcase %}</span><h3>{{ project.gallery_title }}</h3></div>
-      <p>{{ project.gallery_summary }}</p>
+      <div class="gallery-work__image">{% if project.thumbnail %}<img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title | escape }}" loading="lazy" width="1000" height="800">{% else %}<div class="media-placeholder"><span aria-hidden="true">⚙</span><span>WIP</span></div>{% endif %}<span class="gallery-work__open">{% include diagonal-arrow.html %}</span></div>
+      <div class="gallery-work__caption"><span class="page-label" aria-hidden="true">{% case forloop.index %}{% when 1 %}I{% when 2 %}II{% when 3 %}III{% endcase %}</span><h3>{{ project.gallery_title | default: project.title }}</h3></div>
+      <p>{{ project.gallery_summary | default: project.summary }}</p>
     </a>
     {% endfor %}
   </div>
-  <input class="gallery-progress" type="range" min="0" max="1000" value="0" step="1" aria-label="Scroll recent works">
 </section>
 <section class="editorial-section resume-section" id="resume" aria-labelledby="resume-heading"><div class="editorial-section-heading"><div><p class="page-label">II // Resume</p><h2 id="resume-heading">Resume<span class="accent-period">.</span></h2></div></div>{% include resume-card.html %}</section>
 <section class="editorial-outro" aria-labelledby="home-outro"><p class="page-label">III // Let’s connect</p><h2 id="home-outro">Let’s work<br><em>together.</em></h2><a class="round-link" href="{{ '/contact/' | relative_url }}" aria-label="Get in touch">{% include diagonal-arrow.html %}</a></section>

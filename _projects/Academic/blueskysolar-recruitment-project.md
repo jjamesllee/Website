@@ -12,7 +12,7 @@ category: academic
 year: 2026
 order: 2
 role: Simulation and strategy development
-thumbnail: /projects/blueskysolar-recruitment/images/segment-strategy-results.png
+thumbnail: /projects/blueskysolar-recruitment/images/blueskysolar-recruitment-segment-strategy-results.png
 github: https://github.com/jjamesllee/Solar-Race-Strategy-Simulator
 technologies:
   - C++
@@ -35,10 +35,10 @@ competencies:
   - Data interpolation
   - Performance optimization
 strategy_outputs:
-  - image: /projects/blueskysolar-recruitment/images/segment-strategy-results.png
+  - image: /projects/blueskysolar-recruitment/images/blueskysolar-recruitment-segment-strategy-results.png
     alt: "Segment strategy terminal output showing a viable finish, 301 speed decisions, 4.26 kWh final battery, and 1.01 kWh minimum battery"
     caption: "Segment strategy: 301 decisions, a viable finish, and 81.90% battery remaining in the captured run."
-  - image: /projects/blueskysolar-recruitment/images/route-point-strategy-results.png
+  - image: /projects/blueskysolar-recruitment/images/blueskysolar-recruitment-route-point-strategy-results.png
     alt: "Route-point strategy terminal output showing a viable finish, 28,842 decisions, 4.27 kWh final battery, and 1.01 kWh minimum battery"
     caption: "Route-point strategy: 28,842 decisions, a viable finish, and 82.12% battery remaining in the captured run."
 ---
@@ -77,7 +77,7 @@ While testing the constant-speed mode, I observed about 3 seconds per speed iter
 
 The constant-speed sweep asks a useful first question: which fixed speeds can complete the simulated race within both the time and battery constraints? In the captured portion of the output, **59 to 64 km/h are viable**, while the neighbouring displayed speeds are not. This is a result for the supplied model and inputs, not a general operating range for a real solar car.
 
-{% include project-page-sections/figure.html image="/projects/blueskysolar-recruitment/images/constant-speed-sweep.png" alt="Constant-speed sweep showing speeds 59 through 64 as viable and the neighbouring displayed speeds as not viable" caption="An excerpt of the 1 to 99 km/h sweep. Too little speed can miss the deadline; too much can exceed the energy budget." class="solar-output" %}
+{% include project-page-sections/figure.html image="/projects/blueskysolar-recruitment/images/blueskysolar-recruitment-constant-speed-sweep.png" alt="Constant-speed sweep showing speeds 59 through 64 as viable and the neighbouring displayed speeds as not viable" caption="An excerpt of the 1 to 99 km/h sweep. Too little speed can miss the deadline; too much can exceed the energy budget." class="solar-output" %}
 
 ### Adapting to the route
 

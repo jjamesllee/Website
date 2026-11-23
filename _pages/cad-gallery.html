@@ -1,0 +1,16 @@
+---
+background: sierpinski
+body_class: cad-gallery-page
+title: CAD Gallery
+permalink: /cad-gallery/
+description: Collection of my mechanical designs and CAD models
+---
+
+{% include section-title.html level="h1" title="CAD Gallery" id="cad-gallery" label="CAD Gallery" compact=true period=true %}
+
+{% for section in site.data.cad_gallery %}
+<section>
+  <h2>{{ section.title }}</h2>
+  {% include gallery.html images=section.images %}
+</section>
+{% endfor %}

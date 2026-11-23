@@ -6,6 +6,7 @@ exclude:
   # Gallery is private until its photos are ready to publish.
   - _pages/gallery.html
   - assets/images/gallery
+  - assets/images/to_be_organized
   # Development tooling and original source material (not runtime assets).
   - scripts
   - tests

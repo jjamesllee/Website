@@ -7,7 +7,8 @@
         "Mechanical design",
         "CAD modelling & design",
         "Assembly modelling",
-        "Prototyping"
+        "Design for Manufacturing",
+        "Rapid Prototyping"
       ]
     },
     {
@@ -49,6 +50,7 @@
     {
       "title": "Manufacturing & fabrication",
       "items": [
+        "3D Printing",
         "Manual milling",
         "Turning / lathe",
         "Drilling",
@@ -121,6 +123,7 @@
     {
       "title": "Certifications & training",
       "items": [
+        "Certified SOLIDWORKS Associate - Additive Manufacturing (CSWA-AM)",
         "George Brown College Basic Machining Course",
         "National Lifeguard",
         "Swim Instructor-Pool",
@@ -151,6 +154,10 @@
     "Engineering drawings"
   ],
   "training": [
+    {
+      "name": "Certified SOLIDWORKS Associate - Additive Manufacturing (CSWA-AM)",
+      "url": "/about/#certifications"
+    },
     {
       "name": "George Brown College Basic Machining Course",
       "url": "https://www.mie.utoronto.ca/events/machining-courses/"

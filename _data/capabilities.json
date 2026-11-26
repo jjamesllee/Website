@@ -4,9 +4,6 @@
       "title": "CAD & mechanical design",
       "items": [
         "SOLIDWORKS",
-        "Mechanical design",
-        "CAD modelling & design",
-        "Assembly modelling",
         "Design for Manufacturing",
         "Rapid Prototyping"
       ]
@@ -18,11 +15,7 @@
         "C++",
         "JavaScript",
         "TypeScript",
-        "MATLAB",
-        "Swift",
-        "SwiftUI",
-        "Software development",
-        "Code review"
+        "MATLAB"
       ]
     },
     {
@@ -32,7 +25,6 @@
         "Jupyter Notebook",
         "Arduino",
         "Microsoft Excel",
-        "Google Sheets",
         "Minitab"
       ]
     },
@@ -40,9 +32,7 @@
       "title": "Software & AI integration",
       "items": [
         "Meta Wearables SDK",
-        "LinkedIn API",
         "REST API integration",
-        "Video & audio capture",
         "Media pipeline integration",
         "Multimodal AI integration"
       ]
@@ -63,7 +53,6 @@
       "title": "Engineering drawing",
       "items": [
         "Engineering drawings",
-        "Orthographic Views",
         "Dimensioning"
       ]
     },
@@ -71,9 +60,7 @@
       "title": "Controls & testing",
       "items": [
         "Arduino programming",
-        "Motor Control",
-        "Testing",
-        "Troubleshooting"
+        "Motor Control"
       ]
     },
     {
@@ -176,12 +163,8 @@
     }
   ],
   "developing": [
-    "Swift",
-    "SwiftUI",
     "Meta Wearables SDK",
-    "LinkedIn API",
     "REST API integration",
-    "Video & audio capture",
     "Media pipeline integration",
     "Multimodal AI integration"
   ]
